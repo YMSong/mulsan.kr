@@ -1,0 +1,123 @@
+.main-content {
+  position: absolute;
+  top: 80px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.menu-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-button {
+  display: inline-block;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #8484a0;
+  border: 1px solid #8484a0;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 5px;
+}
+
+.menu-button.current {
+  color: #000088;
+  border: 1px solid #000088;
+}
+
+.image {
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+.text {
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.highlighted-text {
+  font-size: 25px;
+  color: #000088;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px 100px;
+}
+
+.department {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.department img {
+  width: 250px;
+  height: 250px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.department div {
+  flex: 1;
+}
+
+.department h2 {
+  color: #333;
+}
+
+.department p {
+  color: #666;
+}
+
+.department:hover {
+  background-color: #e0e0e0;
+}
+
+.member {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.member img {
+  width: 250px;
+  height: 250px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.member div {
+  flex: 1;
+}
+
+.member h2 {
+  color: #333;
+}
+
+.member p {
+  color: #666;
+}

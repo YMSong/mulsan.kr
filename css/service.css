@@ -1,0 +1,27 @@
+.main-content {
+  position: absolute;
+  width: 100%;
+  top: 80px;
+}
+
+.menu-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-button {
+  display: inline-block;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #8484a0;
+  border: 1px solid #8484a0;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 5px;
+}
+
+.menu-button.current {
+  color: #000088;
+  border: 1px solid #000088;
+}

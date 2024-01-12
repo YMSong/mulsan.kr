@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>(주)물산</title>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/about.css" />
+  </head>
+
+  <body>
+    <header>
+      <a class="logo" href="../index.html">
+        <img src="../assets/logo.png" alt="logo" />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a class="main-item" href="./about-vision.html">회사 소개</a>
+            <div class="sub-menu">
+              <a class="sub-item" href="./about-vision.html">비전</a>
+              <a class="sub-item" href="./about-organization.html">조직</a>
+              <a class="sub-item" href="./about-greetings.html">인사말</a>
+            </div>
+          </li>
+          <li>
+            <a class="main-item" href="./product-clarifier.html">제품</a>
+            <div class="sub-menu">
+              <a class="sub-item" href="./product-clarifier.html">정화조</a>
+              <a class="sub-item" href="./product-etc.html">기타 제품</a>
+            </div>
+          </li>
+          <li>
+            <a class="main-item" href="./service-service1.html">서비스</a>
+            <div class="sub-menu">
+              <a class="sub-item" href="./service-service1.html">서비스1</a>
+              <a class="sub-item" href="./service-service2.html">서비스2</a>
+            </div>
+          </li>
+          <li>
+            <a class="main-item" href="./inquiry-board.html">문의</a>
+            <div class="sub-menu">
+              <a class="sub-item" href="./inquiry-board.html">게시판</a>
+              <a class="sub-item" href="./inquiry-contact.html">연락처</a>
+            </div>
+          </li>
+          <li><a class="main-item" href="./more.html">더보기</a></li>
+        </ul>
+      </nav>
+      <div class="right-buttons">
+        <a href="./login.html"><button class="login-btn">로그인</button></a>
+        <a href="./mypage.html">
+          <button class="mypage-btn">마이페이지</button>
+        </a>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <div class="image-container">
+        <img src="../assets/about/organization.jpg" alt="이미지" />
+        <div class="centered-text">
+          <h3>ORGANIZATION</h3>
+        </div>
+      </div>
+
+      <div class="menu-button-container">
+        <a href="./about-vision.html" class="menu-button">비전</a>
+        <a href="./about-organization.html" class="menu-button current">조직</a>
+        <a href="./about-greetings.html" class="menu-button">인사말</a>
+      </div>
+      <section>
+        <div class="department" id="department1">
+          <img src="../assets/about/department1.jpg" alt="환경사업부" />
+          <div>
+            <h2>환경사업부</h2>
+            <h4>공공수질환경에 관련된 다양한 사업을 진행합니다.</h4>
+            <p>
+              공공하수도관리대행업 | 수질환경관리대행기관 | 개인하수처리시설
+              관리업 | 개인하수처리시설 제조업 | 개인하수처리시설 설계∙시공업
+            </p>
+          </div>
+        </div>
+
+        <div class="department" id="department2">
+          <img src="../assets/about/department2.jpg" alt="건설사업부" />
+          <div>
+            <h2>건설사업부</h2>
+            <h4>상하수도에 관련된 여러 건설 및 관리 사업을 진행합니다.</h4>
+            <p>
+              전문공사업 <br />
+              - 상하수도설비공사업 <br />
+              - 지반조성포장공사업(토공,포장공사업) <br />
+              - 철근∙콘크리트 공사업 <br />
+              건물위생관리업
+            </p>
+          </div>
+        </div>
+
+        <div class="department" id="department3">
+          <img src="../assets/about/department3.jpg" alt="부설연구소" />
+          <div>
+            <h2>부설연구소</h2>
+            <h4>
+              더 나은 수질환경과 설비작업을 위해 다양한 연구를 시행합니다.
+            </h4>
+            <p>(임시로 설명) 수질측정연구 | 수질개선연구 | 설비작업연구.</p>
+          </div>
+        </div>
+
+        <div class="department" id="department4">
+          <img src="../assets/about/department4.jpg" alt="기획관리부" />
+          <div>
+            <h2>기획관리부</h2>
+            <h4>회사의 운영을 위한 문서, 재무, 기획 등의 업무를 처리합니다.</h4>
+            <p>
+              (임시로 설명) 공공문서작성 | 입찰/계약관리 | 직원교육지원 |
+              사업기획관리.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        document
+          .getElementById("department1")
+          .addEventListener("click", function () {
+            window.location.href = "#";
+          });
+
+        document
+          .getElementById("department2")
+          .addEventListener("click", function () {
+            window.location.href = "#";
+          });
+
+        document
+          .getElementById("department3")
+          .addEventListener("click", function () {
+            window.location.href = "#";
+          });
+
+        document
+          .getElementById("department4")
+          .addEventListener("click", function () {
+            window.location.href = "#";
+          });
+      </script>
+    </div>
+  </body>
+</html>

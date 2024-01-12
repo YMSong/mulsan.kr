@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>(주)물산</title>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/login.css" />
+  </head>
+
+  <body>
+    <header>
+      <a class="logo" href="../index.html">
+        <img src="../assets/logo.png" alt="logo" />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a class="main-item" href="./about-vision.html">회사 소개</a>
+            <div class="sub-menu">
+              <a class="sub-item" href="./about-vision.html">비전</a>
+              <a class="sub-item" href="./about-organization.html">조직</a>
+              <a class="sub-item" href="./about-greetings.html">인사말</a>
+            </div>
+          </li>
+          <li>
+            <a class="main-item" href="./product-clarifier.html">제품</a>
+            <div class="sub-menu">
+              <a class="sub-item" href="./product-clarifier.html">정화조</a>
+              <a class="sub-item" href="./product-etc.html">기타 제품</a>
+            </div>
+          </li>
+          <li>
+            <a class="main-item" href="./service-service1.html">서비스</a>
+            <div class="sub-menu">
+              <a class="sub-item" href="./service-service1.html">서비스1</a>
+              <a class="sub-item" href="./service-service2.html">서비스2</a>
+            </div>
+          </li>
+          <li>
+            <a class="main-item" href="./inquiry-board.html">문의</a>
+            <div class="sub-menu">
+              <a class="sub-item" href="./inquiry-board.html">게시판</a>
+              <a class="sub-item" href="./inquiry-contact.html">연락처</a>
+            </div>
+          </li>
+          <li><a class="main-item" href="./more.html">더보기</a></li>
+        </ul>
+      </nav>
+      <div class="right-buttons">
+        <a href="./login.html"><button class="login-btn">로그인</button></a>
+        <a href="./mypage.html">
+          <button class="mypage-btn">마이페이지</button>
+        </a>
+      </div>
+    </header>
+    <div class="container">
+      <div class="login-container">
+        <h1>
+          물산과 함께<br />
+          깨끗한 미래를 꿈꾸세요.
+        </h1>
+        <form class="login-form">
+          <div class="form-group">
+            <label for="ID">아이디</label>
+            <input
+              type="text"
+              id="ID"
+              placeholder="아이디를 입력하세요."
+              onfocus="this.placeholder=''"
+              onblur="this.placeholder='아이디를 입력하세요.'"
+              name="username"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">비밀번호</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="비밀번호를 입력하세요."
+              onfocus="this.placeholder=''"
+              onblur="this.placeholder='비밀번호를 입력하세요.'"
+              name="password"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <button type="submit">로그인</button>
+          </div>
+          <span class="form-group">
+            <a href="./signup.html">회원가입 |</a>
+            <a href="./findid.html">아이디 찾기 |</a>
+            <a href="./findpw.html">비밀번호 찾기</a>
+          </span>
+        </form>
+      </div>
+    </div>
+
+    <!-- <form action="">
+      <fieldset class="content">
+        <ul>
+          <li>
+            <label for="ID">아이디</label>
+            <input type="text" id="ID" value="아이디를 입력하세요." required />
+          </li>
+        </ul>
+      </fieldset>
+    </form> -->
+  </body>
+</html>
